@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.s_img {
+  width: 100vh;
+  height: 500px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.img-container {
+  position: relative;
+}
+
+.s_img.banner {
+  filter: brightness(50%);
+}
+
+.btn.check {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bg-img {
+  background: url("./pic/back.jpg");
+  background-size: cover;
+}
+.main {
+  position: relative;
+}
+.check {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 200px;
+  color: white;
+}

@@ -1,0 +1,62 @@
+.bg-img {
+  background: url("./pic/second.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.file-container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file-container input {
+  padding: 10px;
+  border: 2px dashed;
+  border-radius: 0.5rem;
+}
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.file-label {
+  font-size: 20px;
+}
+#results {
+  height: 250px;
+  width: 500px;
+  background-color: white;
+  opacity: 0.85;
+  border-radius: 1rem;
+  padding: 0px 5px;
+}
+.file {
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 500px;
+  background-color: white;
+  opacity: 0.85;
+  border-radius: 1rem;
+}
+.file-input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.result-img {
+  width: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+.result-text {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+#results {
+  display: flex;
+  justify-content: center;
+}
